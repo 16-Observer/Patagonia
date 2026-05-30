@@ -55,7 +55,7 @@ body.state-resolved { --hero-bg: var(--green); --hero-bg-dark: var(--green-dark)
   font-size: clamp(0.75rem, 2vw, 1rem);
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  opacity: 0.85;
+  color: #fff;
   margin-bottom: 1rem;
 }
 
@@ -76,33 +76,33 @@ body.state-resolved { --hero-bg: var(--green); --hero-bg-dark: var(--green-dark)
   max-width: 680px;
   margin: 0 auto 1.5rem;
   line-height: 1.4;
-  opacity: 0.95;
+  color: #fff;
 }
 
 .hero-updated {
   font-family: var(--font-mono);
   font-size: 0.75rem;
-  opacity: 0.7;
+  color: rgba(255,255,255,0.8);
   letter-spacing: 0.05em;
 }
 
 .easter-egg-hero {
   font-family: var(--font-mono);
   font-size: 0.72rem;
-  color: rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.75);
   margin-top: 2.5rem;
   letter-spacing: 0.03em;
 }
 
 .easter-egg-hero-link {
-  color: rgba(255,255,255,0.45);
+  color: #fff;
   text-decoration: underline;
   text-underline-offset: 3px;
   margin-left: 0.25rem;
   transition: color 0.2s;
 }
 
-.easter-egg-hero-link:hover { color: rgba(255,255,255,0.8); }
+.easter-egg-hero-link:hover { color: rgba(255,255,255,0.7); }
 
 .scroll-cue {
   position: absolute;
