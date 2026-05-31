@@ -23,14 +23,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (answerEl) answerEl.textContent = 'YES.';
     if (heroSubEl) heroSubEl.textContent = `As of ${dateStr}, Patagonia is actively suing Pattie Gonia and seeking a court order to stop them from performing under their own name.`;
     if (statusTextEl) statusTextEl.textContent = `The lawsuit is currently active. As of ${dateStr}, no dismissal, settlement, or court ruling has been entered. The case remains on the docket of the Central District of California as Case 2:26-cv-00586.`;
-    document.querySelector('meta[property="og:image"]')?.setAttribute('content', 'https://ispatagoniaerasing pattiegonia.com/og-active.png');
+    document.querySelector('meta[property="og:image"]')?.setAttribute('content', 'https://ispatagoniastillerasingpattie.com/og-active.png');
   } else {
     body.classList.add('state-resolved');
     const resolvedDate = typeof RESOLVED_DATE !== 'undefined' && RESOLVED_DATE ? RESOLVED_DATE : dateStr;
     if (answerEl) answerEl.textContent = 'NO.';
     if (heroSubEl) heroSubEl.textContent = `Patagonia dropped the suit on ${resolvedDate}. Pattie Gonia is free to keep being Pattie Gonia.`;
     if (statusTextEl) statusTextEl.textContent = `The lawsuit has been resolved. Patagonia's case against Pattie Gonia (Case 2:26-cv-00586) was dismissed on ${resolvedDate}. Pattie Gonia is free to continue performing and operating under their name.`;
-    document.querySelector('meta[property="og:image"]')?.setAttribute('content', 'https://ispatagoniaerasing pattiegonia.com/og-resolved.png');
+    document.querySelector('meta[property="og:image"]')?.setAttribute('content', 'https://ispatagoniastillerasingpattie.com/og-resolved.png');
 
     // Remove the "ongoing" timeline item's "no resolution" language
     const ongoingItem = document.getElementById('timeline-ongoing');
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Twitter / X share
-  const siteUrl = 'https://ispatagoniaerasing pattiegonia.com';
+  const siteUrl = 'https://ispatagoniastillerasingpattie.com';
   const tweetText = active
     ? `Patagonia filed a federal lawsuit asking a court to stop Pattie Gonia from performing under their own name. Track the case: ${siteUrl}`
     : `Patagonia dropped the lawsuit against Pattie Gonia. Pattie Gonia is free to keep being Pattie Gonia. ${siteUrl}`;

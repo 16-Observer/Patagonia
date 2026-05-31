@@ -2,7 +2,7 @@
 const LAWSUIT_ACTIVE = true;
 
 // Update this date whenever anything changes
-const LAST_UPDATED = "May 30, 2026";
+const LAST_UPDATED = "May 31, 2026";
 
 // If resolved, set the resolution date
 const RESOLVED_DATE = null; // e.g. "June 15, 2026"
