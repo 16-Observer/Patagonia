@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     body.classList.add('state-active');
     if (answerEl) answerEl.textContent = 'YES.';
     if (heroSubEl) heroSubEl.textContent = `As of ${dateStr}, Patagonia is actively suing Pattie Gonia and seeking a court order to stop them from performing under their own name.`;
-    if (statusTextEl) statusTextEl.textContent = `The lawsuit is currently active. As of ${dateStr}, no dismissal, settlement, or court ruling has been entered. The case remains on the docket of the Western District of Washington as Case 2:26-cv-00586.`;
+    if (statusTextEl) statusTextEl.textContent = `The lawsuit is currently active. As of ${dateStr}, no dismissal, settlement, or court ruling has been entered. The case remains on the docket of the Central District of California as Case 2:26-cv-00586.`;
     document.querySelector('meta[property="og:image"]')?.setAttribute('content', 'https://ispatagoniaerasing pattiegonia.com/og-active.png');
   } else {
     body.classList.add('state-resolved');
